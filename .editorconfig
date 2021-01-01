@@ -1,0 +1,7 @@
+﻿[*.cs]
+
+# CS0649: Field 'LocationInfo.lastUpdate' is never assigned to, and will always have its default value 0
+dotnet_diagnostic.CS0649.severity = none
+
+# IDE0022: Use block body for methods
+csharp_style_expression_bodied_methods = false:silent
